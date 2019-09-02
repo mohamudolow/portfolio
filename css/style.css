@@ -16,3 +16,15 @@ body {
 #about img {
     margin-bottom: 15px;
 }
+footer {
+    text-align: center;
+    font-size: 80%;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 15px;
+    width: 100%;
+    position: absolute;
+    border-bottom: 0;
+    left: 0;
+    z-index: 2001;
+}
