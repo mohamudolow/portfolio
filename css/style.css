@@ -36,6 +36,10 @@ body {
 #projects .row {
     margin-bottom: 20px;
 }
+#projects hr {
+    width: 50px;
+    background-color: lightgray;
+}
 
 /*=====================================*/
                 /*FOOTER*/
