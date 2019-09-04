@@ -5,7 +5,10 @@ body {
     padding: 0;
     margin: 0;
 }
-
+hr {
+    width: 50px;
+    background-color: lightgray;
+}
 
 /*=====================================*/
                 /*HEADER*/
@@ -40,9 +43,22 @@ body {
 #projects .row {
     margin-bottom: 20px;
 }
-#projects hr {
-    width: 50px;
-    background-color: lightgray;
+
+
+/*=====================================*/
+                /*CONTACT*/
+/*=====================================*/
+#contact {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+#contact button {
+    background-color: #e67e22;
+    padding: 6px 10px;;
+}
+#contact a {
+    color: #fff;
+    font-size: 110%;
 }
 
 /*=====================================*/
