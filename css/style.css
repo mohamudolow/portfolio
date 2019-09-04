@@ -30,6 +30,9 @@ hr {
     margin-bottom: 20px;
     padding-top: 70px;
 }
+#about .author-img {
+    text-align: center;
+}
 #about img {
     margin-bottom: 15px;
 }
@@ -43,10 +46,18 @@ hr {
 #projects .row {
     margin-bottom: 20px;
 }
+#projects .project-img {
+    text-align: center;
+    margin-top: 20px;
+    }
 #projects img {
     border: 5px solid lightgray;
+    border-radius: 15px;
+    width: 470px;
 }
-
+#projects h4 {
+    padding-top: 20px;
+    }
 
 /*=====================================*/
                 /*CONTACT*/
@@ -79,3 +90,15 @@ footer {
     left: 0;
 }
 
+
+@media (min-width: 768px) {
+    #about .author-img {
+    text-align: left;
+}
+    #projects .project-img {
+        text-align: left;
+    }
+    #projects h4 {
+        padding-top: 0px;
+    }
+}
