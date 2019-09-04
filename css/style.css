@@ -43,6 +43,9 @@ hr {
 #projects .row {
     margin-bottom: 20px;
 }
+#projects img {
+    border: 5px solid lightgray;
+}
 
 
 /*=====================================*/
