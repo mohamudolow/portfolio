@@ -47,13 +47,13 @@ hr {
     margin-bottom: 20px;
 }
 #projects .project-img {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     }
 #projects img {
     border: 5px solid lightgray;
     border-radius: 15px;
-    width: 470px;
+    width: 400px;
 }
 #projects h4 {
     padding-top: 20px;
@@ -95,8 +95,8 @@ footer {
     #about .author-img {
     text-align: left;
 }
-    #projects .project-img {
-        text-align: left;
+    #projects img {
+        width: 500px;
     }
     #projects h4 {
         padding-top: 0px;
