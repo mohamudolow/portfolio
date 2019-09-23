@@ -89,7 +89,19 @@ footer {
     border-bottom: 0;
     left: 0;
 }
-
+#links a {
+    font-size: 30px;
+    padding: 20px;
+}
+#links .github {
+    color: lightgray;
+}
+#links .linkedin {
+    color: #0073b1;
+}
+#links .twitter {
+    color: rgba(130, 219, 53, 0.74);
+}
 
 @media (min-width: 768px) {
     #about .author-img {
